@@ -108,6 +108,25 @@ Defaults (override in `.env` if needed):
 
 If you previously indexed content with OpenAI embeddings, clear the corpus and re-index after switching to Gemini.
 
+## Starter (for recording / tutorials)
+
+[`starter/`](./starter/) mirrors this repo’s structure. The UI and helpers are complete; four backend files have TODOs to fill in live:
+
+1. `lib/vectorStore.ts`
+2. `lib/rag.ts`
+3. `app/api/learn/*`
+4. `app/api/chat/route.ts`
+
+```bash
+cd starter
+npm install
+cp .env.example .env   # POSTGRES_URL + GOOGLE_API_KEY
+npm run init-db
+npm run dev
+```
+
+Full answers live in `starter/.solution/`. Restore with `npm run solution:restore` inside `starter/`.
+
 ## Learn more
 
 - [Neon AI docs](https://neon.tech/docs/ai/ai-intro)
