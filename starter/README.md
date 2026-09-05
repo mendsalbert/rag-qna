@@ -4,7 +4,7 @@ Hands-on starter for building a **Retrieval-Augmented Generation (RAG)** app.
 
 Same folder structure as the full app at the repo root. **UI is complete** — you fill in the backend in four steps while recording.
 
----
+
 
 ## Quick start (recording)
 
